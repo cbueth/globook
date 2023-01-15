@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "globook-backend"
+version = "0.1.0"
+description = ""
+authors = ["C and H"]
+license = "GNU GPL"
+readme = "README.md"
+packages = [{include = "globook_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+Werkzeug = "^2.2.2"
+flask-migrate = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
