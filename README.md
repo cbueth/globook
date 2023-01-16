@@ -9,11 +9,11 @@ The idea of this project is a place to track hitchhiking books - books that are
 passed from person to person. Knowing where a book has travelled might be motivating
 for the reader to keep reading and passing it on.
 
-When a book starts its journey, the donator writes a welcoming message with a short
+When a book starts its journey, the donor writes a welcoming message with a short
 explanation of Globook into the first page of the book. This will include the unique
-identifier and the secret. The donator can also write a short message into the book.
-Online, the donator registers the book with general information about the book, like
-title and author. The donator can also register a location where the book is currently
+identifier and the secret. The donor can also write a short message into the book.
+Online, the donor registers the book with general information about the book, like
+title and author. The donor can also register a location where the book is currently
 located.
 
 Identifications are made using a unique identifier and a secret. The unique identifier
@@ -43,12 +43,12 @@ has the book can register a new location.
 - **Book**: A book that is registered with Globook.
   - **Title**: The title of the book.
   - **Author**: The author of the book.
-  - **Message**: A message written by the donator to be displayed online.
+  - **Message**: A message written by the donor to be displayed online.
   - **Unique identifier**: A unique identifier for the book.
   - **Secret**: A secret for the book, used as a password for registering.
-- **Donator**: The person who donates a book to Globook.
+- **Donor**: The person who donates a book to Globook.
 - **Reader**: The person who reads a book and passes it on to another person.
-- **User**: Either a donator or a reader. Collect IP addresses and other information
+- **User**: Either a donor or a reader. Collect IP addresses and other information
   about the user? No registration wanted.
 - **Catch**: A catch is the act of registering a new location for a book.
   - **Location**: The location of the catch

@@ -1,0 +1,9 @@
+/instance/*
+
+
+# I guess we can ignore some of the migrations folder,
+# but should not ignore all of it...
+# /migrations/*
+
+poetry.lock
+/app/__pycache__/*
